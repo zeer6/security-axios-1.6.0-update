@@ -1,2 +1,14 @@
-# security-axios-1.6.0-update
-Security-focused update of package.json: upgraded axios to ^1.6.0 and resolved dependencies for @pinata/sdk. This change addresses known vulnerabilities and demonstrates our commitment to open source security and modern JavaScript best practices.
+# Commit README: Security Patch Only
+
+This commit updates only the `package.json` file to upgrade `axios` to version `1.6.0` for security reasons.
+
+- No other files or dependencies were changed.
+- After pulling this commit, run:
+  ```powershell
+  npm install
+  npm audit
+  ```
+  to ensure all vulnerabilities are resolved.
+
+This README is intended solely for documenting this security patch commit on GitHub.
+
